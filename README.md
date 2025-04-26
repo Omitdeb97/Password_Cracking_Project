@@ -34,7 +34,7 @@ After John the Ripper finishes running, you can see the cracked password:
 john --show password1.txt
 
 # Screenshots
-![image alt]()
+![image alt](https://github.com/Omitdeb97/Password_Cracking_Project/blob/main/password%20creating%20.png?raw=true)
 Creating passwords
 ![image alt]()
 Cracked password
