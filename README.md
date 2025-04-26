@@ -35,9 +35,12 @@ john --show password1.txt
 
 # Screenshots
 ![image alt](https://github.com/Omitdeb97/Password_Cracking_Project/blob/main/password%20creating%20.png?raw=true)
-Creating passwords
+
+>>Creating passwords
+
 ![image alt](https://github.com/Omitdeb97/Password_Cracking_Project/blob/main/Cracked%20password.png?raw=true)
-Cracked password
+
+>>Cracked password
 # Learning
 From this project, I learned the following:
 
