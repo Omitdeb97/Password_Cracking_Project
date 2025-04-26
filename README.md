@@ -1,7 +1,7 @@
 # Password_Cracking_Project
 
 # Description
-This project demonstrates the use of John the Ripper for cracking hashed passwords.Generated password hashes using openssl and attempt to crack them using wordlist-based methods.
+This project demonstrates the use of John the Ripper for cracking hashed passwords. It generates password hashes using OpenSSL and attempts to crack them using wordlist-based methods.
 
 # Tools used
 John the Ripper: A password cracking tool that supports multiple hash algorithms.
@@ -17,24 +17,27 @@ Result:
 $1$EQ9tLdIJ$uWXopACkXOBziXpbO432b.
 
 2. Creating a Wordlist
-A wordlist (mylist.txt) was created that contains potential passwords. This is the list that John the Ripper will attempt to use to crack the password hash.
+A wordlist (mylist.txt) containing potential passwords was created. John the Ripper will attempt to use this list to crack the password hash.
 echo -e "123456\npassword\nadmin\npassword123\nletmein" > mylist.txt
 
 3. Storing the Hash in a File
-stored the generated password hash in a text file (password1.txt):
+Store the generated password hash in a text file (password1.txt):
 echo "$1$EQ9tLdIJ$uWXopACkXOBziXpbO432b." > password1.txt
 
 4. Cracking the Hash with John the Ripper
-used the following command to attempt cracking the password hash:
+used the following command to attempt to crack the password hash:
 john --wordlist=mylist1.txt password1.txt --format=md5crypt
-this cmd processes the wordlist and attempts to match one of the passwords with the hash.
+This command processes the wordlist and attempts to match one of the passwords with the hash.
 
 5. Viewing the Cracked Password
 After John the Ripper finishes running, you can see the cracked password:
 john --show password1.txt
 
 # Screenshots
-
+![image alt]()
+Creating passwords
+![image alt]()
+Cracked password
 # Learning
 From this project, I learned the following:
 
